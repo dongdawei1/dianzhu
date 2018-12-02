@@ -4,8 +4,6 @@ import  java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import jdk.nashorn.internal.objects.annotations.Where;
-
 public class TestPaiXu {
 
 	public static void main(String[] args) {
@@ -86,7 +84,7 @@ public class TestPaiXu {
            return true;
     }
 	
-	
+	//用冒泡获取数组中最大的值
     
     public static int  max(int[] num_list){
     	
@@ -111,5 +109,4 @@ public class TestPaiXu {
     	
     }
     
-
 }
